@@ -22,7 +22,7 @@ vertex_color_use_as_albedo = true
 albedo_color = Color(0.996078, 0.639216, 1, 1)
 albedo_texture = SubResource("GradientTexture2D_ih4d6")
 
-[sub_resource type="ImmediateMesh" id="ImmediateMesh_vgym8"]
+[sub_resource type="ImmediateMesh" id="ImmediateMesh_m4a1b"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_4ov2t"]
 size = Vector3(30, 1, 30)
@@ -51,7 +51,7 @@ transform = Transform3D(1, 0, 0, 0, 0.961579, 0.27453, 0, -0.27453, 0.961579, 0,
 [node name="Trail3D" type="MeshInstance3D" parent="CharacterBody3D"]
 transform = Transform3D(0.0541134, 0, 0.998535, 0, 1, 0, -0.998535, 0, 0.0541134, -0.188318, 0, 0.284232)
 material_override = SubResource("StandardMaterial3D_wcfm6")
-mesh = SubResource("ImmediateMesh_vgym8")
+mesh = SubResource("ImmediateMesh_m4a1b")
 script = ExtResource("2_n6xy7")
 fromWidth = 0.565
 lifespan = 2.0
